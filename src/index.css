@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:ital,wght@0,300..700;1,300..700&family=Space+Grotesk:wght@300..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-brand-cyan: #ffffff;
+  --color-brand-teal: #e4e4e7;
+  --color-brand-amber: #f59e0b;
+  --color-brand-rose: #ef4444;
+}
+
+@layer base {
+  body {
+    -webkit-tap-highlight-color: transparent;
+    font-family: var(--font-sans);
+    background-color: #0A0A0A;
+    color: #ffffff;
+  }
+}
+
+.dot-pattern {
+  background-image: radial-gradient(circle at 1px 1px, rgba(230, 230, 230, 0.15) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+

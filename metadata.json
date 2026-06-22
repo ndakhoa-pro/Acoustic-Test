@@ -1,0 +1,10 @@
+{
+  "name": "Acoustic Scout",
+  "description": "A mobile-focused acoustic room optimizer that measures room reverb and ambient response to provide targeted design recommendations.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
